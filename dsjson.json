@@ -1,0 +1,61 @@
+[
+    {
+        "re_url":"VamsiKrishnaSamavedam/Adventure_Works_Data_Engineering_Project/5be003cb953381798238f2716d6968418b93256f/Data/AdventureWorks_Calendar.csv",
+        "p_directory":"calender",
+        "p_filename":"AdventureWorks_Calendar.csv"
+    },
+    
+    {
+        "re_url":"VamsiKrishnaSamavedam/Adventure_Works_Data_Engineering_Project/refs/heads/main/Data/AdventureWorks_Customers.csv",
+        "p_directory":"customers",
+        "p_filename":"AdventureWorks_Customers.csv"
+    },
+    
+    {
+        "re_url":"VamsiKrishnaSamavedam/Adventure_Works_Data_Engineering_Project/5be003cb953381798238f2716d6968418b93256f/Data/AdventureWorks_Product_Subcategories.csv",
+        "p_directory":"Product_Subcategories",
+        "p_filename":"AdventureWorks_Product_Subcategories.csv"
+    },
+    
+    {
+        "re_url":"VamsiKrishnaSamavedam/Adventure_Works_Data_Engineering_Project/5be003cb953381798238f2716d6968418b93256f/Data/AdventureWorks_Products.csv",
+        "p_directory":"Products",
+        "p_filename":"AdventureWorks_Products.csv"
+    },
+    
+    {
+        "re_url":"VamsiKrishnaSamavedam/Adventure_Works_Data_Engineering_Project/5be003cb953381798238f2716d6968418b93256f/Data/AdventureWorks_Returns.csv",
+        "p_directory":"Returns",
+        "p_filename":"AdventureWorks_Returns.csv"
+    },
+    
+    {
+        "re_url":"VamsiKrishnaSamavedam/Adventure_Works_Data_Engineering_Project/5be003cb953381798238f2716d6968418b93256f/Data/AdventureWorks_Sales_2015.csv",
+        "p_directory":"Sales_2015",
+        "p_filename":"AdventureWorks_Sales_2015.csv"
+    },
+    
+    {
+        "re_url":"VamsiKrishnaSamavedam/Adventure_Works_Data_Engineering_Project/5be003cb953381798238f2716d6968418b93256f/Data/AdventureWorks_Sales_2016.csv",
+        "p_directory":"Sales_2016",
+        "p_filename":"AdventureWorks_Sales_2016.csv"
+    },
+    
+    {
+        "re_url":"VamsiKrishnaSamavedam/Adventure_Works_Data_Engineering_Project/5be003cb953381798238f2716d6968418b93256f/Data/AdventureWorks_Sales_2017.csv",
+        "p_directory":"Sales_2017",
+        "p_filename":"AdventureWorks_Sales_2017.csv"
+    },
+    
+    {
+        "re_url":"VamsiKrishnaSamavedam/Adventure_Works_Data_Engineering_Project/5be003cb953381798238f2716d6968418b93256f/Data/AdventureWorks_Territories.csv",
+        "p_directory":"Territories",
+        "p_filename":"AdventureWorks_Territories.csv"
+    },
+    
+    {
+        "re_url":"VamsiKrishnaSamavedam/Adventure_Works_Data_Engineering_Project/5be003cb953381798238f2716d6968418b93256f/Data/AdventureWorks_Product_Categories.csv",
+        "p_directory":"Product_Categories",
+        "p_filename":"AdventureWorks_Product_Categories.csv"
+    }
+]
