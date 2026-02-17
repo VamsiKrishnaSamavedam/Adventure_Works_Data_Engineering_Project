@@ -1,1 +1,1 @@
-### Screenshots to demonstrate the project understanding.
+# Screenshots to demonstrate the project understanding.
