@@ -1,0 +1,17 @@
+{
+	"name": "create views script",
+	"properties": {
+		"content": {
+			"query": "-- CREATE VIEW CALENDAR\n-----------------------\nCREATE VIEW gold.calendar\nAS\nselect * from \nOPENROWSET(\n            BULK 'https://azureprojectvamsi2.dfs.core.windows.net/silver/calendar/',\n            FORMAT='PARQUET'\n            ) AS query1;\nGO\n-- CREATE VIEW SALES\n------------------------\nCREATE VIEW gold.sales\nAS\nSELECT * FROM\nOPENROWSET(\n            BULK 'https://azureprojectvamsi2.dfs.core.windows.net/silver/Sales/',\n            FORMAT='PARQUET'\n            ) AS query1;\n\n-- CREATE VIEW TERRITORIES\n---------------------------\nGO\nCREATE VIEW gold.territories\nAS\nSELECT * FROM\nOPENROWSET(\n            BULK 'https://azureprojectvamsi2.dfs.core.windows.net/silver/Territories/',\n            FORMAT='PARQUET'\n            ) AS query1;\n\n-- CREATE VIEW CUSTOMERS\n---------------------------\nGO\nCREATE VIEW gold.customers\nAS\nSELECT * FROM\nOPENROWSET(\n            BULK 'https://azureprojectvamsi2.dfs.core.windows.net/silver/customers/',\n            FORMAT='PARQUET'\n            ) AS query1;\n\nGO\n-- CREATE VIEW PRODUCT_SUBCATEGORIES\n---------------------------\n\nCREATE VIEW gold.product_subcategories\nAS\nSELECT * FROM\nOPENROWSET(\n            BULK 'https://azureprojectvamsi2.dfs.core.windows.net/silver/product_subcategories/',\n            FORMAT='PARQUET'\n            ) AS query1;\n\nGO\n-- CREATE VIEW PRODUCTS\n---------------------------\n\nCREATE VIEW gold.products\nAS\nSELECT * FROM\nOPENROWSET(\n            BULK 'https://azureprojectvamsi2.dfs.core.windows.net/silver/products/',\n            FORMAT='PARQUET'\n            ) AS query1;\n\n\n-- CREATE VIEW RETURNS\n---------------------------\nGO\nCREATE VIEW gold.returns\nAS\nSELECT * FROM\nOPENROWSET(\n            BULK 'https://azureprojectvamsi2.dfs.core.windows.net/silver/returns/',\n            FORMAT='PARQUET'\n            ) AS query1;\n",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "AW_database",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

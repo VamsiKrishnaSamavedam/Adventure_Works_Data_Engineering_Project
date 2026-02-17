@@ -1,0 +1,17 @@
+{
+	"name": "create schema",
+	"properties": {
+		"content": {
+			"query": "CREATE SCHEMA gold;",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "AW_database",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
